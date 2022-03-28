@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.6.0.1-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="960pt" height="540pt" viewBox="0 -540 960 540">
+ <defs>
+  <radialGradient id="RadialGradient" gradientUnits="userSpaceOnUse" cx="467.099" cy="-58.247" r="447.540465790525" gradientTransform="matrix(0 -1 1 0 -269.215 481.393)">
+   <stop offset="0" stop-color="#002a75"/>
+   <stop offset="1" stop-color="#000c30"/>
+  </radialGradient>
+  <radialGradient id="RadialGradient_1" gradientUnits="userSpaceOnUse" cx="467.099" cy="-58.247" r="447.540465790525">
+   <stop offset="0" stop-color="#002a75"/>
+   <stop offset="1" stop-color="#000c30"/>
+  </radialGradient>
+ </defs>
+ <g id="Layer 1" transform="scale(1 -1)">
+  <g id="ClipView" stroke-linejoin="miter" stroke="none">
+   <g id="Group" stroke-linecap="round" stroke-width="1.061" fill="url(#RadialGradient_1)">
+    <g id="Group_1">
+     <rect x="-270.785" y="-481.395" width="541.57" height="962.79" transform="translate(481.393 269.215) rotate(90)" fill="url(#RadialGradient)"/>
+    </g>
+   </g>
+   <clipPath id="ClipPath">
+    <path d="M -0.003,540 L -0.003,-1.572 L 962.787,-1.572 L 962.787,540 L -0.003,540 Z"/>
+   </clipPath>
+   <g clip-path="url(#ClipPath)">
+    <mask id="TranspMask">
+     <rect x="-10%" y="-10%" width="120%" height="120%" fill="#0d0d0d" stroke="none"/>
+    </mask>
+    <g id="Group_2" fill="#ffffff" stroke-width="2.527" mask="url(#TranspMask)">
+     <path d="M 93.388,66.553 C 104.472,80.21 122.706,97.594 158.189,123.925 C 167.775,129.277 168.956,141.899 155.856,155.652 C 138.192,175.828 113.444,184.924 81.594,182.976 C 129.541,193.12 163.839,180.398 185.183,146.201 C 190.393,138.087 195.676,129.978 186.867,119.863 C 162.597,96.235 119.515,87.066 93.388,66.553 Z" marker-start="none" marker-end="none"/>
+     <path d="M 26.257,75.324 C 32.563,153.7 76.496,172.476 140.985,158.681 C 112.002,175.406 82.518,189.613 43.796,157.682 C 16.875,130.791 19.252,103.119 26.257,75.324 Z" marker-start="none" marker-end="none"/>
+     <path d="M 54.252,134.038 C 33.011,91.267 57.99,16.256 135.249,17.957 C 104.119,13.188 72.871,5.806 43.796,47.316 C 21.756,88.661 35.569,112.565 54.252,134.038 Z" marker-start="none" marker-end="none"/>
+     <path d="M 78.221,45.282 C 111.505,38.848 143.92,36.209 167.636,70.943 L 190.599,70.943 C 177.304,26.314 111.873,11.027 78.221,45.282 Z" marker-start="none" marker-end="none"/>
+    </g>
+   </g>
+  </g>
+  <text xml:space="preserve" transform="translate(91.632 428.153) scale(1 -1)" kerning="auto" font-size="61.116" stroke="none" stroke-width="0.273" stroke-linecap="round" stroke-linejoin="round" font-family="Open Sans Extrabold" fill="#ffffff"><tspan x="117.214" y="0">Perder tempo em </tspan><tspan x="5.992" y="74.904">aprender coisas que não </tspan><tspan x="9.812" y="149.808">interessam priva-nos de </tspan><tspan x="135.476" y="224.712">descobrir coisas </tspan><tspan x="163.826" y="299.616">interessantes.</tspan></text>
+  <text xml:space="preserve" transform="translate(175.494 67.049) scale(1 -1)" kerning="auto" font-size="33.023" fill="#ffffff" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.184" stroke="none" font-family="Open Sans Light"><tspan x="77.478" y="0">Carlos Drummond de Andrade</tspan></text>
+ </g>
+</svg>
