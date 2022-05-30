@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV SUPPORT Engloba</title>
+
+<script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+		<script type="text/javascript">
+			jQuery(window).load(function($){
+				atualizaRelogio();
+			});
+		</script>
     
     <meta http-equiv="refresh" content="1800">
     
@@ -95,12 +102,47 @@ body {
   85% {margin-left: -10240px;}
   86% {margin-left: -11520px;}
   95% {margin-left: -11520px;}
-
+  
+ 
 }
  
     </style>
 </head>
 <body>
+<div style="position: absolute">
+			<output id="data" style="font-family: 'arial black', 'avant garde'; font-size: 35px;"></output>
+		</div>
+<div style="position: absolute;margin-top: 50px">
+			<output id="hora" style="font-family: 'arial black', 'avant garde'; font-size: 55px; font-weight:bold"></output>				
+		</div>
+<script>
+		function atualizaRelogio(){ 
+			var momentoAtual = new Date();
+			
+			var vhora = momentoAtual.getHours();
+			var vminuto = momentoAtual.getMinutes();
+			var vsegundo = momentoAtual.getSeconds();
+			
+			var vdia = momentoAtual.getDate();
+			var vmes = momentoAtual.getMonth() + 1;
+			var vano = momentoAtual.getFullYear();
+			
+			if (vdia < 10){ vdia = "0" + vdia;}
+			if (vmes < 10){ vmes = "0" + vmes;}
+			if (vhora < 10){ vhora = "0" + vhora;}
+			if (vminuto < 10){ vminuto = "0" + vminuto;}
+			if (vsegundo < 10){ vsegundo = "0" + vsegundo;}
+
+			dataFormat = vdia + " / " + vmes + " / " + vano;
+			horaFormat = vhora + " : " + vminuto + " : " + vsegundo;
+
+			document.getElementById("data").innerHTML = dataFormat;
+			document.getElementById("hora").innerHTML = horaFormat;
+
+			setTimeout("atualizaRelogio()",1000);
+		}
+	</script>			
+
     <div id="slideshow">
         <div class="slide-wrapper">
           <div class="slide"> <img src="1.jpg" /> </div>
